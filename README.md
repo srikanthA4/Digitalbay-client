@@ -23,10 +23,11 @@ Test out regular user features:
 Email: user@ecommcapstone.com
 Password: 1234
 
-## Screenshots
-
+<!-- ## Screenshots -->
+<!-- 
 ![login](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/LoginScreenshot.png)
 
 ![user](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/UserScreenshot.png)
 
 ![admin](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/AdminScreenshot.png)
+ -->
