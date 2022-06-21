@@ -1,4 +1,4 @@
-# Apple E-Commerce
+# Mobileshopee client
 
 ## 🛠 Tools Used
 * MongoDB
@@ -9,11 +9,11 @@
 
 ## View Backend Code
 
-[View Backend](https://github.com/austindflatt/ecommerce-server)
+[View Backend](https://github.com/srikanthA4/mobileshopee-server)
 
 ## ✨ Live Site
 
-[View Live](http://ecommerce-client-five.vercel.app/)
+[View Live](https://mobileshopee-client.vercel.app/)
 
 Test out the Admin features:
 Email: admin@ecommcapstone.com
