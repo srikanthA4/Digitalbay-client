@@ -22,7 +22,7 @@ const TransactionsList = () => {
   return (
     <>
     <Helmet>
-      <title>Manage Transactions |  E-Commerce</title>
+      <title>Manage Transactions |  Digitalbay</title>
       <meta name='description' content='Admin Transactions' />
     </Helmet>
     <TextInput
