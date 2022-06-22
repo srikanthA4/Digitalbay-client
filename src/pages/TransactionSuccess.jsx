@@ -7,7 +7,7 @@ const TransactionSuccess = () => {
   return (
     <>
     <Helmet>
-      <title>Order Successful |  E-Commerce</title>
+      <title>Order Successful |  Digitalbay</title>
       <meta name='description' content='Order Successful' />
     </Helmet>
     <Title order={3} style={{ marginBottom: '10px' }}>Thank you for your order! ✅</Title>
