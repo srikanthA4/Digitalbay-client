@@ -33,7 +33,7 @@ const ProductList = () => {
   return (
     <>
     <Helmet>
-      <title>Manage Products |  E-Commerce</title>
+      <title>Manage Products |  Digitalbay</title>
       <meta name='description' content='Admin Products' />
     </Helmet>
     <Link to='/account/add-product'>
