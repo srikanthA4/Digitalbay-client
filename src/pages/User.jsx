@@ -18,7 +18,7 @@ const User = () => {
   return (
     <>
     <Helmet>
-      <title>Your Account |  E-Commerce</title>
+      <title>Your Account |  Digitalbay</title>
       <meta name='description' content='Your Account' />
     </Helmet>
     <div style={{ width: 100 }}>
