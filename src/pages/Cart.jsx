@@ -40,7 +40,7 @@ const Cart = () => {
   return (
     <>
     <Helmet>
-      <title>Shopping Cart |  E-Commerce</title>
+      <title>Shopping Cart | Digitalbay</title>
       <meta name='description' content='Shopping Cart' />
     </Helmet>
     {cart.length <= 0 ?  
