@@ -24,7 +24,7 @@ const AddProduct = () => {
   return (
     <>
     <Helmet>
-      <title>Add New Product |  E-Commerce</title>
+      <title>Add New Product | Digitalbay</title>
       <meta name='description' content='Add New Product' />
     </Helmet>
     {
