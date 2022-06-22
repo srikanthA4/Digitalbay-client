@@ -22,8 +22,9 @@ function App() {
     <>
     <BrowserRouter>
     <Helmet>
-      <title> E-Commerce</title>
-      <meta name='title' content='Apple E-Commerce' />
+      <title> Digitalbay</title>
+      <meta name='title' content='Digitalbey' />
+//      <meta name='title' content='Apple E-Commerce' />
       <meta name='description' content='An E-Commerce web app built with React.' />
       <meta property="og:title" content='Apple E-Commerce' />
       <meta property="og:description" content='An E-Commerce web app built with React.' />
