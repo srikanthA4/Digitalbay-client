@@ -32,7 +32,7 @@ const UserList = () => {
   return (
     <>
     <Helmet>
-      <title>Manage Users |  E-Commerce</title>
+      <title>Manage Users |  Digitalbay</title>
       <meta name='description' content='Manage Users' />
     </Helmet>
     <TextInput
