@@ -12,7 +12,7 @@ const Home = () => {
       <title>Home | Digitalbay</title>
       <meta name='description' content='Home' />
     </Helmet>
-    <Title order={2} style={{ marginBottom: '10px' }}> E-Commerce</Title>
+    <Title order={2} style={{ marginBottom: '10px' }}> Digitalbay</Title>
     <Text size="md">The Best Prices.</Text>
     
     <Title order={3} style={{ marginTop: '10px' }}>Recent Products Added</Title>
