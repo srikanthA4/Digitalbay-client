@@ -61,7 +61,7 @@ const EditProduct = ({ editId, setEdit }) => {
   return (
     <>
     <Helmet>
-      <title>Edit {title} |E-Commerce</title>
+      <title>Edit {title} |Digitalbay</title>
       <meta name='description' content='Edit Product' />
     </Helmet>
     {
