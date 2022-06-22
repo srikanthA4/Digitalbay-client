@@ -58,7 +58,7 @@ const EditProduct = ({ editId, setEdit }) => {
   //   }
   // };
 
-  return (
+  return ( 
     <>
     <Helmet>
       <title>Edit {title} |Digitalbay</title>
