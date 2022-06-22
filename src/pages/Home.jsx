@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
     <Helmet>
-      <title>Home |  E-Commerce</title>
+      <title>Home | Digitalbay</title>
       <meta name='description' content='Home' />
     </Helmet>
     <Title order={2} style={{ marginBottom: '10px' }}> E-Commerce</Title>
