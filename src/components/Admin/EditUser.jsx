@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Helmet } from "react-helmet";
 import axios from 'axios';
-import { TextInput, Title, Button } from '@mantine/core';
+import { TextInput, Title, Button, Switch } from '@mantine/core';
 import { UserContext } from '../../context/userContext/UserContext';
 import { updateUser } from '../../context/userContext/apiCalls';
 
@@ -18,7 +18,7 @@ const EditProduct = ({ editId, setEdit }) => {
   useEffect(() => {
     const getUserData = async () => {
       const response = await axios.get(`https://tranquil-brook-13044.herokuapp.com/api/users/find/${editId}`);
-      const data = response.data.payload;
+      const data = response.data.info;
       setEmail(data.email);
       setFirstName(data.firstName);
       setLastName(data.lastName);
@@ -45,7 +45,7 @@ const EditProduct = ({ editId, setEdit }) => {
   return (
     <>
     <Helmet>
-      <title>Edit {username} |Digitalbay</title>
+      <title>Edit {username} | Apple E-Commerce</title>
       <meta name='description' content='Edit Account' />
     </Helmet>
     {
@@ -92,13 +92,13 @@ const EditProduct = ({ editId, setEdit }) => {
       size="md"
       required
       />
-      <TextInput
-      label="Make Admin"
-      value={isAdmin}
-      onChange={(e) => setisAdmin(e.target.value)}
-      id="isAdmin"
-      size="md"
-      required
+      <Switch 
+      label="Admin Control" 
+      size="md" 
+      id="isAdmin" 
+      checked={isAdmin}
+      onChange={() => setisAdmin(!isAdmin)} 
+      style={{ marginTop: '10px' }}
       />
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
