@@ -8,7 +8,7 @@ import { updateUser } from '../../context/userContext/apiCalls';
 const EditProduct = ({ editId, setEdit }) => {
 	const admin = JSON.parse(localStorage.getItem('user')).isAdmin;
   const { dispatch } = useContext(UserContext);
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState(''); 
   const [username, setUsername] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
