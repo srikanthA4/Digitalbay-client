@@ -14,7 +14,7 @@ const EditProduct = ({ editId, setEdit }) => {
   const [category, setCategory] = useState('');
   const [price, setPrice] = useState('');
   
-  useEffect(() => {
+  useEffect(() => { 
     const getProductData = async () => {
       const response = await axios.get(`https://tranquil-brook-13044.herokuapp.com/api/products/find/${editId}`);
       const data = response.data.payload;
